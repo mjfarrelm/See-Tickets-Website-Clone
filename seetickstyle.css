@@ -1,14 +1,13 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
-.font-family: 'Roboto', sans-serif;
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
 .flexbox-item {
    
-  
 }
 
 /* -----masthead code------ */
@@ -18,6 +17,7 @@
     justify-content: center;
     align-items: center;
     gap: 2px;
+    padding: 30px;
 }
 
 .masthead img {
@@ -26,35 +26,33 @@ height: 20px;
 
 }
 
-.mastheadbrowse {
-    position: absolute;
-    left: 261px;
-    height: 70px;
+.masthead h1 {
+    font-weight: 200;
+    
 }
 
-.mastevery {
+.mastheadbrowse {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 10px;
+    left: 310px;
+    height: 75px;
+}
+
+.mastdropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
     height: 60px;
     width: 250px;
     background-color: white;
     border-radius: 2px;
     }
 
-
-
-
-.mastanywhere {
-    height: 60px;
-    width: 250px;
-    background-color: white;
-    border-radius: 2px;
-    }
-
-.mastanytime {
-    height: 60px;
-    width: 250px;
-    background-color: white;
-    border-radius: 2px;
-    }
+.mastdropdown h3 {
+    font-weight: 100;
+}
 
 
 button {
@@ -65,9 +63,6 @@ button {
     font-size: 12px;
     border: none;
     border-radius: 2px;
-
-    
-
 
 }
 
@@ -80,6 +75,14 @@ display: flex;
 justify-content: flex-start;
 position: relative;
 left: 261px;
+}
+
+.musicheader h1{
+    font-weight: 200;
+}
+
+.musicarrow {
+    color: darkgrey;
 }
 
 
@@ -109,7 +112,7 @@ height: 200px;
 background-color: white;
 border: 10px, solid black;
     position: relative;
-    left: 261px;
+    left: 239px;
     border-radius: 8px;
 }
 
@@ -140,7 +143,7 @@ border: 10px, solid black;
             background-color: white;
             border: 10px, solid black;
             position: relative;
-            right: 261px;
+            right: 239px;
             border-radius: 8px;
                 
             }
@@ -150,28 +153,40 @@ border: 10px, solid black;
 
 .mailinglist {
     display: flex;
-    
-    background-color: white;
-    height: 70px;
-    max-width: 50%;
-    
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 100vw;
+   
 }
+
+.mailinglist h3 {
+    background-color: white;
+    padding: 15px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
 #heart {
    color: rgba(15, 193, 199, 0.815);
-   position: absolute;
-   left: 100px;
-   height: 16px;
-   width: 20px;
+   background-color: white;
+   padding: 15px;
+   height: 100%;
+   box-sizing: border-box;
 }
 
 #blurb {
-    left: 80px;
-    height: 16px;  
+    color: black;
+    background-color: white;
+    height: 100%;
+    width: 500px;
 }
 
 #mailbutton {
-    margin-left: auto;
     right: 60px;
+    height: 100%;
 }
 
 
