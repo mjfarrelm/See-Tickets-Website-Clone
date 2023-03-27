@@ -51,15 +51,20 @@ padding-right: 10px;
 }
 
 .mastheadinsp {
-    background-color: rgba(15, 193, 199, 0.815);
-    width: 100px;
-    height: 60px;
-    font-size: 12px;
-    border: none;
-    border-radius: 2px;
+    
 
 }
 
+.inspireme {
+    color: white;
+    background-color: rgba(15, 193, 199, 0.815);
+    width: 100px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 200;
+    border: none;
+    border-radius: 2px;
+}
 
 /* --------'Music' banner here------- */
 
@@ -79,6 +84,14 @@ gap: 20px;
 
 .musicarrow {
     color: darkgrey;
+}
+
+.musicline {
+    width: 3%;
+    height: 2px;
+    border: none;
+    margin-left: 400px;
+    background-color: rgba(15, 193, 199, 0.815);
 }
 
 
@@ -212,6 +225,14 @@ gap: 20px;
         color: darkgrey;
     }
 
+    
+    .eventsline {
+        width: 3%;
+        height: 2px;
+        border: none;
+        margin-left: 385px;
+        background-color: rgba(15, 193, 199, 0.815);
+    }
 
 
 /* -------Events pic, name code here------------ */
@@ -294,6 +315,13 @@ gap: 20px;
         color: darkgrey;
     }
 
+    .festline {
+        width: 3%;
+        height: 2px;
+        border: none;
+        margin-left: 385px;
+        background-color: rgba(15, 193, 199, 0.815);
+    }
 
 
 
@@ -378,6 +406,14 @@ gap: 40px;
     }
 
 
+    .comline {
+        width: 3%;
+        height: 2px;
+        border: none;
+        margin-left: 385px;
+        background-color: rgba(15, 193, 199, 0.815);
+    }
+
 /* ------comedy pics / text here -------*/
 
 .comedypics {
@@ -440,21 +476,26 @@ gap: 40px;
 
 /* ----------movable button here------------ */
 
+.scrollnav{
+display: flex;
+justify-content: flex-end;
+padding-right: 50px;
 
-#navtool {
+}
+
+
+.navtool {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    color: white;
     background-color: rgba(15, 193, 199, 0.815);
     border: none;
+    font-size: 30px;
     height: 65px;
     width: 65px;
     border-radius: 100%;
-}
-
-.navtool h5 {
-    color: white;
-    height: 15px;
 }
 
     img {
@@ -470,9 +511,7 @@ gap: 40px;
     
     }
     
-    .button {
-        color: white;
-    }
+    
 
 
 
